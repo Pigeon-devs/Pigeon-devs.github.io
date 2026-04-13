@@ -30,6 +30,51 @@ document.querySelector(".hero").addEventListener("click", stopSlideshow);
 
 
 /* =========================
+   STORY GRID (SCALABLE)
+   ========================= */
+
+let allStories = [];
+
+async function loadStories() {
+    const res = await fetch("stories.json");
+    allStories = await res.json();
+    renderStories();
+}
+
+
+let showAllP = false;
+
+function renderStories() {
+    const grid = document.getElementById("storyGrid");
+    console.log(allStories)
+
+    grid.innerHTML = "";
+
+    const vs = showAllP ? allStories : allStories.slice(0, 10);
+
+    vs.forEach(v => {
+        const imgPathP = `images/people/person${v.id}.jpg`;
+        const storyHtml = v.story.map(line => `${line}`).join("<br>");
+
+
+        grid.innerHTML += `
+            <div class="story-card">
+                <div class="story-img-wrapper">
+                    <img src="${imgPathP}">
+                </div>
+                <div class="card-body">
+                    <h5>${v.name}, ${v.age || "--"}</h5><hr>
+                    <p>${storyHtml}</p>
+                </div>
+            </div>
+`;
+
+
+    });
+}
+
+
+/* =========================
    VICTIM GRID (SCALABLE)
    ========================= */
 
@@ -65,7 +110,7 @@ function renderVictims() {
             <div class="victim-text">
                 <div class="victim-name">${v.name}</div>
                 <div class="victim-extra">${v.extra_info || ""}</div>
-                <div class="victim-age">Age: ${v.age}</div>
+                <div class="victim-age">Age: ${v.age || "--"}</div>
             </div>
 
         </div>
@@ -89,4 +134,5 @@ document.getElementById("toggleBtn").addEventListener("click", () => {
     renderVictims();
 });
 
+loadStories();
 loadVictims();
