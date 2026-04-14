@@ -152,7 +152,7 @@ h2 {
 }
 
 .story-card p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #FFFFFF;
 }
 
@@ -282,13 +282,17 @@ h2 {
     padding: 25px 15px;
 }
 
+.section h2 {
+    margin: 0;
+}
+
 
 /* BLACKOUT TEXT FIX */
 .blackout {
     background: #111;
     border-left: 4px solid #b30000;
     padding: clamp(15px, 3vw, 25px);
-    font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+    font-size: clamp(1rem, 1.3vw, 1.05rem);
     min-height: 20vh;
     border-left: 4px solid #b30000;
 }
@@ -299,17 +303,87 @@ h2 {
 }
 
 
+
+
+
+
+
+/* =========================
+   MEDIA STRIP (CLEAN)
+   ========================= */
+
+.media-strip {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 25px;
+
+    /* responsive columns */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* ITEM */
+.media-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #111;
+    border-radius: 10px;
+}
+
+/* IMAGE CONTAINER */
+.media-img {
+    width: 80%;
+    /*height: 300px;*/
+    aspect-ratio: 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* IMAGE */
+.media-img img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* TEXT */
+.media-caption {
+    /*margin-top: 8px;*/
+    font-size: 0.9rem;
+    color: #ccc;
+    line-height: 1.4;
+    text-align: center;
+    padding: 0 15px 15px;
+}
+
+
+
+
+
+
+
+
+
 /* MOBILE OPTIMIZATION */
-
-
 @media (max-width: 575px) {
     .blackout {
         padding: 15px;
     }
 
-    .blackout p, .blackout li {
-        font-size: 0.95rem;
+    .blackout p {
+        font-size: 1rem;
         line-height: 1.5;
+    }
+
+    .blackout li {
+        font-size: 0.9rem;
+        line-height: 1;
     }
 
     .victim-card {
@@ -331,7 +405,7 @@ h2 {
     }
 
     .victim-age, .victim-extra {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .victim-card img {
@@ -351,5 +425,14 @@ h2 {
 @media (max-width: 340px) {
     .story-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 575px) {
+
+    .media-strip {
+        grid-template-columns: 1fr;
+        gap: 12px;
     }
 }
