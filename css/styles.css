@@ -54,6 +54,8 @@ h2 {
     background: var(--iran-red);
 }
 
+
+
 /* LANGUAGE SWITCH */
 .lang-switch {
     display: flex;
@@ -81,6 +83,9 @@ h2 {
     background: #fff;
     color: #000;
     border-color: #fff;
+}
+
+
 
 
 /* HERO */
