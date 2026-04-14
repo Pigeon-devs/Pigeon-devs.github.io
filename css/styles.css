@@ -54,6 +54,33 @@ h2 {
     background: var(--iran-red);
 }
 
+/* LANGUAGE SWITCH */
+.lang-switch {
+    display: flex;
+    gap: 6px;
+}
+
+.lang-btn {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: #ccc;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+    background: #222;
+    color: #fff;
+    border-color: #888;
+}
+
+
+.lang-btn.active {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
 
 
 /* HERO */
