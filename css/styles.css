@@ -75,6 +75,7 @@ h2 {
     color: #ccc;
     text-decoration: none;
     transition: all 0.2s ease;
+    text-align: center;
 }
 
 .lang-btn:hover {
@@ -488,9 +489,8 @@ h2 {
 
 @media (max-width: 575px) {
     .lang-btn {
-        height: 44px;          /* proper tap size */
-        min-width: 50px;
+        width: 44px;
         font-size: 0.9rem;
-        border-radius: 8px;
+        border-radius: 9px;
     }
 }
