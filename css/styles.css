@@ -28,6 +28,11 @@ h2 {
     background: black;
 }
 
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
 /* FLAG BAR */
 .flag-bar {
     display: flex;
@@ -84,7 +89,6 @@ h2 {
     color: #000;
     border-color: #fff;
 }
-
 
 
 
@@ -150,10 +154,22 @@ h2 {
 }
 
 .timeline-item {
+    display: block;
     margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
 }
 
+.timeline-item:hover {
+    background: #1a1a1a;
+    border-radius: 6px;
+    transition: 0.2s;
+    cursor: pointer;
+}
 
+.timeline-item:hover strong {
+    color: #fff;
+}
 
 .story-grid {
     display: grid;
@@ -466,5 +482,15 @@ h2 {
     .media-strip {
         grid-template-columns: 1fr;
         gap: 12px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .lang-btn {
+        height: 44px;          /* proper tap size */
+        min-width: 50px;
+        font-size: 0.9rem;
+        border-radius: 8px;
     }
 }
