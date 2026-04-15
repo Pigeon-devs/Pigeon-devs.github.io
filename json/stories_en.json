@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Mahan",
+    "age": 22,
+    "story":  [
+      "At just 22, Mahan’s life was shaped by hard work and a legacy of sacrifice. The son of a war veteran, he grew up under the shadow of conflict only to become a victim of the same regime his father had once defended the country against.",
+      "Working since the age of 14, Mahan had recently achieved his dream of opening a small hair salon. Alongside his work, he expressed himself through rap, giving voice to the struggles around him.", "In his final post, he performed a protest rap that now feels eerily prophetic: ",
+      "<strong>&quot; My whole body burns, as if hit by a thousand pellets. &quot;</strong>",
+      "And in defiance:",
+      "<strong>&quot; I have nothing to lose; go ahead, empty the tear gas in my face. &quot;</strong>",
+      "A day after his death on first night of protests, a friend searching through rows of unidentified bodies looking for their own lost ones, recognized Mahan’s face among them. He had been killed by a single bullet to the center of his forehead."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Melina Asadi",
+    "age": 3,
+    "story": [
+      "A 3-year-old girl from Kermanshah.",
+      "She was with her father when she was shot by security forces.",
+      "An innocent child lost her life.",
+      "The truth about her death was distorted by authorities."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Amirhossein Hatami",
+    "age": 18,
+    "story":  [
+      "He was arrested after the protests and later executed.",
+      "The accusations were based on alleged “confessions,” the circumstances of which remain unclear.",
+      "He was one of the youngest victims of the current wave of executions."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sepeshr Ebrahimi",
+    "age": 18,
+    "story": [
+      "A young man who was killed during the protests.",
+      "In a 12-minute video, his father is seen desperately searching for his body.",
+      "Hundreds of bodies can be seen lying on the ground, while families search among them for their loved ones.",
+      "His death represents the suffering of countless families."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Daiana Bahador",
+    "age": null,
+    "story": [
+      "In Iran, women are not allowed to ride motorcycles.",
+      "Despite this, Diana stood up for her freedom and shared videos of herself riding on social media.",
+      "She consciously chose freedom over fear.",
+      "She was killed during the protests.",
+      "Her family was pressured and forced to publicly claim that she had nothing to do with the protests."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Danial Moradi",
+    "age": null,
+    "story": [
+      "He was killed during the protests.",
+      "This image carries deep meaning, referencing Arash the Archer – a symbol of courage, sacrifice, and strength in Persian history.",
+      "His sister shared this video so he would be remembered exactly like this.",
+      "He represents many young people who stood up for freedom and lost their lives for it."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Yalda Mohammadi Khani",
+    "age": 16,
+    "story": [
+      "A 16-year-old girl from Karaj.",
+      "She attended the protests together with her father.",
+      "There, she was shot 8 times by security forces.",
+      "Despite her father’s attempts to protect her, she was fatally wounded.",
+      "She lost her life the same day."
+    ]
+  }
+]

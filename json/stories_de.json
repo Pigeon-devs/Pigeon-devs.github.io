@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Mahan",
+    "age": 22,
+    "story": [
+      "Mit nur 22 Jahren war Mahans Leben von harter Arbeit und einem Erbe des Opfers geprägt. Als Sohn eines Kriegsveteranen wuchs er im Schatten von Konflikten auf, nur um selbst ein Opfer desselben Regimes zu werden, gegen das sein Vater einst das Land verteidigt hatte.",
+      "Seit dem Alter von 14 Jahren arbeitend, hatte Mahan kürzlich seinen Traum verwirklicht, einen kleinen Friseursalon zu eröffnen. Neben seiner Arbeit drückte er sich durch Rap aus und gab den Problemen um ihn herum eine Stimme.",
+      "In seinem letzten Beitrag trug er einen Protest-Rap vor, der heute unheimlich prophetisch wirkt:",
+      "<strong>&quot; Mein ganzer Körper brennt, als wäre er von tausend Pellets getroffen worden. &quot;</strong>",
+      "Und trotzig:",
+      "<strong>&quot; Ich habe nichts zu verlieren; los, entleert das Tränengas in meinem Gesicht. &quot;</strong>",
+      "Einen Tag nach seinem Tod in der ersten Nacht der Proteste erkannte ein Freund, der in Reihen nicht identifizierter Leichen nach seinen eigenen Vermissten suchte, Mahans Gesicht unter ihnen. Er war durch eine einzelne Kugel in die Mitte seiner Stirn getötet worden."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Melina Asadi",
+    "age": 3,
+    "story": [
+      "Ein 3-jähriges Mädchen aus Kermanshah.",
+      "Sie war mit ihrem Vater, als sie von Sicherheitskräften erschossen wurde.",
+      "Ein unschuldiges Kind verlor ihr Leben.",
+      "Die Wahrheit über ihren Tod wurde von den Behörden verzerrt."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Amirhossein Hatami",
+    "age": 18,
+    "story": [
+      "Er wurde nach den Protesten verhaftet und später hingerichtet.",
+      "Die Anschuldigungen basierten auf angeblichen „Geständnissen“, deren Umstände unklar bleiben.",
+      "Er war eines der jüngsten Opfer der aktuellen Hinrichtungswelle."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sepeshr Ebrahimi",
+    "age": 18,
+    "story": [
+      "Ein junger Mann, der während der Proteste getötet wurde.",
+      "In einem 12-minütigen Video ist sein Vater zu sehen, wie er verzweifelt nach seinem Körper sucht.",
+      "Hunderte von Leichen liegen auf dem Boden, während Familien unter ihnen nach ihren Angehörigen suchen.",
+      "Sein Tod steht stellvertretend für das Leid unzähliger Familien."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Daiana Bahador",
+    "age": null,
+    "story": [
+      "Im Iran ist es Frauen nicht erlaubt, Motorräder zu fahren.",
+      "Trotzdem stand Diana für ihre Freiheit ein und teilte Videos von sich beim Fahren in sozialen Medien.",
+      "Sie entschied sich bewusst für Freiheit statt Angst.",
+      "Sie wurde während der Proteste getötet.",
+      "Ihre Familie wurde unter Druck gesetzt und gezwungen, öffentlich zu behaupten, dass sie nichts mit den Protesten zu tun hatte."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Danial Moradi",
+    "age": null,
+    "story": [
+      "Er wurde während der Proteste getötet.",
+      "Dieses Bild trägt eine tiefe Bedeutung und verweist auf Arash den Bogenschützen – ein Symbol für Mut, Opferbereitschaft und Stärke in der persischen Geschichte.",
+      "Seine Schwester teilte dieses Video, damit er genau so in Erinnerung bleibt.",
+      "Er steht für viele junge Menschen, die für Freiheit eingestanden sind und dafür ihr Leben verloren haben."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Yalda Mohammadi Khani",
+    "age": 16,
+    "story": [
+      "Ein 16-jähriges Mädchen aus Karaj.",
+      "Sie nahm gemeinsam mit ihrem Vater an den Protesten teil.",
+      "Dort wurde sie achtmal von Sicherheitskräften angeschossen.",
+      "Trotz der Versuche ihres Vaters, sie zu schützen, wurde sie tödlich verletzt.",
+      "Sie verlor noch am selben Tag ihr Leben."
+    ]
+  }
+]
